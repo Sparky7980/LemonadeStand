@@ -1,0 +1,77 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Cheeto Snippet Runner</title>
+    <style>
+        body {
+            background-color: #FFA948; /* Cheeto Orange */
+            color: #FFDAB9; /* Light Peach */
+            font-family: 'Arial', sans-serif;
+            margin: 0;
+            padding: 0;
+            display: flex;
+            flex-direction: column;
+            align-items: center;
+            justify-content: center;
+            height: 100vh;
+        }
+
+        h1 {
+            font-size: 2.5em;
+            margin-bottom: 20px;
+        }
+
+        p {
+            font-size: 1.2em;
+            margin-bottom: 30px;
+        }
+
+        .run-button {
+            padding: 10px 20px;
+            font-size: 1.2em;
+            background-color: #FF4500; /* Deep Orange */
+            color: #FFFFFF; /* White */
+            border: none;
+            cursor: pointer;
+            border-radius: 5px;
+            margin-bottom: 20px; /* Add some margin to separate the buttons */
+        }
+
+        .run-button:hover {
+            background-color: #FF6347; /* Tomato */
+        }
+
+        .games-button {
+            padding: 10px 20px;
+            font-size: 1.2em;
+            background-color: #4CAF50; /* Green */
+            color: #FFFFFF; /* White */
+            border: none;
+            cursor: pointer;
+            border-radius: 5px;
+        }
+
+        .games-button:hover {
+            background-color: #45a049; /* Darker Green */
+        }
+    </style>
+</head>
+<body>
+    <h1>Welcome to Cheeto Snippet Runner!</h1>
+    <p>Cheat with the power of Cheeto.</p>
+    <button class="run-button" onclick="runSnippet()">Run Snippet</button>
+    <button class="games-button" onclick="goToGames()">Go to Game Cheats</button>
+
+    <script>
+        function runSnippet() {
+            alert('Spicy Cheeto Puffs');
+        }
+
+        function goToGames() {
+            window.location.href = 'games.html';
+        }
+    </script>
+</body>
+</html>
