@@ -1,0 +1,76 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Emam Lemonade Stand Prices</title>
+    <style>
+        body {
+            background-color: Yellow; /* Cheeto Orange */
+            color: Blue
+            font-family: 'Arial', sans-serif;
+            margin: 0;
+            padding: 0;
+            display: flex;
+            flex-direction: column;
+            align-items: center;
+            justify-content: center;
+            height: 100vh;
+        }
+
+        h1 {
+            font-size: 2.5em;
+            margin-bottom: 20px;
+        }
+
+        p {
+            font-size: 1.2em;
+            margin-bottom: 30px;
+        }
+
+        .run-button {
+            padding: 10px 20px;
+            font-size: 1.2em;
+            background-color: Blue; /* Deep Orange */
+            color: Yellow; /* White */
+            border: none;
+            cursor: pointer;
+            border-radius: 5px;
+            margin-bottom: 20px; /* Add some margin to separate the buttons */
+        }
+
+        .run-button:hover {
+            background-color: #FF6347; /* Tomato */
+        }
+
+        .games-button {
+            padding: 10px 20px;
+            font-size: 1.2em;
+            background-color: Blue; /* Green */
+            color: Yellow; /* White */
+            border: none;
+            cursor: pointer;
+            border-radius: 5px;
+        }
+
+        .prices-button:hover {
+            background-color: Black; /* Darker Green */
+        }
+    </style>
+</head>
+<body>
+    <h1>Prices for Emam Lemonade</h1>
+    <p>Drink the finest lemonade.</p>
+    <button class="prices-button" onclick="goToPrices()">See Prices</button>
+
+    <script>
+        function runSnippet() {
+            alert('Welcome to the lemonade stand!');
+        }
+
+        function goToHome() {
+            window.location.href = 'index.html';
+        }
+    </script>
+</body>
+</html>
